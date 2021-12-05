@@ -3,7 +3,7 @@ project_path="../3dtest"
 
 output_path="/Users/chars"
 
-/Applications/Unity/Unity.app -projectPath ${project_path} -executeMethod ReleaseTool.BuildAndroid -quit
+/Applications/Unity/Hub/Editor/2019.4.32f1c1/Unity.app/Contents/MacOS/Unity -projectPath ${project_path} -executeMethod ReleaseTool.BuildAndroid -quit
 
 cd ${project_path}
 
